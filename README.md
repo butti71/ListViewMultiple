@@ -31,7 +31,8 @@ public IListFeed<string> Items =>
        });
 
 XAML:
-<mvux:FeedView Source="{Binding Items}"
+
+      <mvux:FeedView Source="{Binding Items}"
                        utu:AutoLayout.PrimaryAlignment="Stretch">
           <DataTemplate>
             <UserControl>
