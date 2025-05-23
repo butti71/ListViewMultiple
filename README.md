@@ -6,9 +6,9 @@ When select multiple items and then unselect and select the first one, the secon
 
 
 Project created with:
-
+```
 dotnet new unoapp -o ListViewMultiple -presentation "mvux" -config  -http "refit" -di  -nav "regions" -toolkit 
-
+```
 Model:
 ```
       public IListFeed<string> Items =>
