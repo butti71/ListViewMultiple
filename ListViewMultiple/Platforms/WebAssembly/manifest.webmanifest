@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "ListViewMultiple",
+  "display": "standalone",
+  "name": "ListViewMultiple",
+  "short_name": "ListViewMultiple",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
