@@ -10,8 +10,8 @@ Project created with:
 dotnet new unoapp -o ListViewMultiple -presentation "mvux" -config  -http "refit" -di  -nav "regions" -toolkit 
 
 Model:
-
-public IListFeed<string> Items =>
+```
+      public IListFeed<string> Items =>
        ListFeed.Async<string>(static (ct) =>
        {
            var result = new List<string>
@@ -29,9 +29,9 @@ public IListFeed<string> Items =>
            }.ToImmutableList();
            return ValueTask.FromResult(result);
        });
-
+```
 XAML:
-
+```
       <mvux:FeedView Source="{Binding Items}"
                        utu:AutoLayout.PrimaryAlignment="Stretch">
           <DataTemplate>
@@ -60,3 +60,4 @@ XAML:
             </UserControl>
           </DataTemplate>
         </mvux:FeedView>
+```
